@@ -413,3 +413,51 @@ fn local_day_starts_follow_daylight_saving() {
     assert_eq!(parse::local_day_starts(d(2026, 3, 29), tz).len(), 23);
     assert_eq!(parse::local_day_starts(d(2026, 6, 10), tz).len(), 24);
 }
+
+/// Finland is on Helsinki's clock: elpriser.org serves fi in Helsinki days (ground truth ENTSO-E A44, 2026-11-03: the market
+/// day starts at 2026-11-02T23:00Z = 01:00 Helsinki, so hour 0 of the Finnish day is 22:00Z, the hour before).
+fn fi_day(date: &str) -> Series {
+    let prices: Vec<_> = (0..24)
+        .map(|h| json!({"hour": h, "eur_mwh": if h == 1 { 5.77 } else { h as f64 }}))
+        .collect();
+    let feed = json!({
+        "zone": "fi", "generated": "2026-11-03", "trainedThrough": null, "unit": "EUR/MWh",
+        "zoneInfo": {"name": "FI Finland", "country": "FI", "currency": "EUR", "rate": 1, "rateDate": "2026-11-03", "rateSource": "ECB"},
+        "days": [{"date": date, "type": "actual", "prices": prices}],
+    });
+    parse::parse_zone_feed(&feed, Zone::Fi).unwrap()
+}
+
+#[test]
+fn finland_hour_0_is_helsinki_midnight() {
+    let s = fi_day("2026-11-03");
+    let slots = &s.day(d(2026, 11, 3)).unwrap().slots;
+    let at = |y, m, day, h| Utc.with_ymd_and_hms(y, m, day, h, 0, 0).unwrap();
+    assert_eq!(slots[0].start, at(2026, 11, 2, 22));
+    assert_eq!(slots[1].start, at(2026, 11, 2, 23));
+    assert_eq!(slots[1].price_mwh, Some(5.77));
+    assert_eq!(slots[2].start, at(2026, 11, 3, 0));
+    assert_eq!(slots[23].start, at(2026, 11, 3, 21));
+    assert_eq!(slots[1].start.with_timezone(&slots[1].tz).hour(), 1);
+}
+
+#[test]
+fn finland_days_with_a_clock_change() {
+    let at = |y, m, day, h| Utc.with_ymd_and_hms(y, m, day, h, 0, 0).unwrap();
+    let (s1, s2) = (fi_day("2026-03-29"), fi_day("2026-10-25"));
+    let spring = &s1.day(d(2026, 3, 29)).unwrap().slots;
+    assert_eq!(spring.len(), 23); // Helsinki 03:00 does not exist
+    assert_eq!(spring[0].start, at(2026, 3, 28, 22));
+    assert_eq!(spring[3].start, at(2026, 3, 29, 1)); // 04:00 EEST
+    let fall = &s2.day(d(2026, 10, 25)).unwrap().slots;
+    assert_eq!(fall.len(), 25); // Helsinki 03:00 happens twice, one value for both
+    assert_eq!(fall[0].start, at(2026, 10, 24, 21));
+    assert_eq!(
+        (fall[3].start, fall[4].start),
+        (at(2026, 10, 25, 0), at(2026, 10, 25, 1))
+    );
+    assert_eq!(
+        (fall[3].price_mwh, fall[4].price_mwh),
+        (Some(3.0), Some(3.0))
+    );
+}

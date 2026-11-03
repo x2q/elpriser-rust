@@ -1,9 +1,10 @@
 //! The price zones elpriser.org serves.
 //!
 //! The list mirrors the `zone` enum of <https://elpriser.org/api/openapi.json> (40 zones).
-//! [`Zone::tz`] is the wall clock the API's `hour` field (0-23) is expressed in: the 13
-//! Nordic/NL feed zones are all on Copenhagen time (also Finland: the feed floors every
-//! slot to the Copenhagen hour), every other zone is on its own country's clock.
+//! [`Zone::tz`] is the wall clock the API's `hour` field (0-23) is expressed in: Copenhagen's
+//! for DK, NO, SE and NL, Helsinki's for Finland (elpriser.org cuts `fi` into Helsinki days;
+//! until then the feed floored it to the Copenhagen hour, which 0.1.0 of this crate assumed),
+//! every other zone is on its own country's clock.
 
 use std::fmt;
 use std::str::FromStr;
@@ -120,7 +121,7 @@ zones! {
     Se2 => "se2", "SE2 Sundsvall", "SE", "SEK", Europe__Copenhagen, Nordic, None;
     Se3 => "se3", "SE3 Stockholm", "SE", "SEK", Europe__Copenhagen, Nordic, None;
     Se4 => "se4", "SE4 Malmö", "SE", "SEK", Europe__Copenhagen, Nordic, None;
-    Fi => "fi", "FI Finland", "FI", "EUR", Europe__Copenhagen, Nordic, None;
+    Fi => "fi", "FI Finland", "FI", "EUR", Europe__Helsinki, Nordic, None;
     Nl => "nl", "NL Nederland", "NL", "EUR", Europe__Copenhagen, Nordic, None;
     De => "de", "DE-LU Germany and Luxembourg", "DE", "EUR", Europe__Berlin, Eu, None;
     Fr => "fr", "FR France", "FR", "EUR", Europe__Paris, Eu, None;

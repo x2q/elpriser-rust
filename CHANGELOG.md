@@ -6,6 +6,15 @@ All notable changes to this crate are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.1.1] - unreleased
+
+### Fixed
+
+- `Zone::Fi` is on Helsinki's clock: elpriser.org now serves `/api/nordic?zone=fi` in Helsinki days (it was
+  indexed by the Copenhagen hour), so hour 0 of a Finnish day is 22:00 UTC in winter. 0.1.0 assumed Copenhagen
+  time for `fi` and is one hour off once the API has changed; 0.1.1 is one hour off against the old API.
+  Publish it together with the API change.
+
 ## [0.1.0] - 2026-11-03
 
 First release. Feature parity with the Python SDK

@@ -31,10 +31,14 @@ fn every_zone_has_valid_metadata() {
 
 #[test]
 fn zone_clocks() {
-    // The 13 Nordic/NL feed zones are all on Copenhagen time, also Finland.
-    for z in Zone::ALL.iter().filter(|z| z.group() != ZoneGroup::Eu) {
+    // The Nordic/NL zones are on Copenhagen time, except Finland: Helsinki's days (ENTSO-E 2026-11-03).
+    for z in Zone::ALL
+        .iter()
+        .filter(|z| z.group() != ZoneGroup::Eu && **z != Zone::Fi)
+    {
         assert_eq!(z.tz().name(), "Europe/Copenhagen", "{z}");
     }
+    assert_eq!(Zone::Fi.tz().name(), "Europe/Helsinki");
     assert_eq!(Zone::De.tz().name(), "Europe/Berlin");
     assert_eq!(Zone::Gb.tz().name(), "Europe/London");
     assert_eq!(Zone::Pt.tz().name(), "Europe/Lisbon");
