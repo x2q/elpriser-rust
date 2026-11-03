@@ -1,0 +1,47 @@
+# Publishes to crates.io when a v* tag is pushed, using crates.io trusted publishing (no token stored).
+#
+# Inert until the owner sets it up (see "Maintainers: publishing" in the README):
+#   1. publish the first release by hand (`cargo publish`),
+#   2. on crates.io add a trusted publisher for this repository and workflow file (publish.yml),
+#   3. set the repository variable PUBLISH_TO_CRATES_IO to "true".
+# Without the variable only the `verify` job runs: it checks the tag against Cargo.toml, runs the tests and a
+# `cargo publish --dry-run`.
+name: Publish
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: The tag matches the crate version
+        run: |
+          version=$(cargo metadata --no-deps --format-version 1 | python3 -c 'import json,sys; print(json.load(sys.stdin)["packages"][0]["version"])')
+          if [ "v$version" != "$GITHUB_REF_NAME" ]; then
+            echo "tag $GITHUB_REF_NAME does not match Cargo.toml version $version" >&2
+            exit 1
+          fi
+      - run: cargo test --all-features
+      - run: cargo publish --dry-run
+
+  publish:
+    needs: verify
+    if: ${{ vars.PUBLISH_TO_CRATES_IO == 'true' }}
+    runs-on: ubuntu-24.04
+    permissions:
+      id-token: write # trusted publishing: the OIDC token the auth action exchanges for a short-lived crates.io token
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: rust-lang/crates-io-auth-action@v1
+        id: auth
+      - run: cargo publish
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ steps.auth.outputs.token }}

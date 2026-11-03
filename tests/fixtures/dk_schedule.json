@@ -1,0 +1,130 @@
+{
+ "area": "DK1",
+ "mode": "inkl_alt",
+ "strategy": "cheapest_n",
+ "param": 6,
+ "date": "2026-11-03",
+ "on_now": false,
+ "schedule": [
+  {
+   "hour": 0,
+   "price": 2.209,
+   "on": true
+  },
+  {
+   "hour": 1,
+   "price": 2.2237,
+   "on": true
+  },
+  {
+   "hour": 2,
+   "price": 2.22,
+   "on": true
+  },
+  {
+   "hour": 3,
+   "price": 2.2411,
+   "on": true
+  },
+  {
+   "hour": 4,
+   "price": 2.257,
+   "on": true
+  },
+  {
+   "hour": 5,
+   "price": 2.2548,
+   "on": true
+  },
+  {
+   "hour": 6,
+   "price": 2.5482,
+   "on": false
+  },
+  {
+   "hour": 7,
+   "price": 2.9481,
+   "on": false
+  },
+  {
+   "hour": 8,
+   "price": 2.9896,
+   "on": false
+  },
+  {
+   "hour": 9,
+   "price": 2.706,
+   "on": false
+  },
+  {
+   "hour": 10,
+   "price": 2.3618,
+   "on": false
+  },
+  {
+   "hour": 11,
+   "price": 2.3166,
+   "on": false
+  },
+  {
+   "hour": 12,
+   "price": 2.2758,
+   "on": false
+  },
+  {
+   "hour": 13,
+   "price": 2.3251,
+   "on": false
+  },
+  {
+   "hour": 14,
+   "price": 2.3225,
+   "on": false
+  },
+  {
+   "hour": 15,
+   "price": 2.5961,
+   "on": false
+  },
+  {
+   "hour": 16,
+   "price": 2.931,
+   "on": false
+  },
+  {
+   "hour": 17,
+   "price": 3.0903,
+   "on": false
+  },
+  {
+   "hour": 18,
+   "price": 3.0305,
+   "on": false
+  },
+  {
+   "hour": 19,
+   "price": 2.975,
+   "on": false
+  },
+  {
+   "hour": 20,
+   "price": 2.7449,
+   "on": false
+  },
+  {
+   "hour": 21,
+   "price": 2.3894,
+   "on": false
+  },
+  {
+   "hour": 22,
+   "price": 2.2991,
+   "on": false
+  },
+  {
+   "hour": 23,
+   "price": 2.283,
+   "on": false
+  }
+ ]
+}

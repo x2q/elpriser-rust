@@ -1,0 +1,46 @@
+[package]
+name = "elpriser"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+authors = ["elpriser.org"]
+description = "Client for the elpriser.org electricity price API: 40 European zones, current and next hour, cheapest hours, best window, forecast days, Danish tariff-aware endpoints."
+license = "MIT"
+repository = "https://github.com/x2q/elpriser-rust"
+homepage = "https://elpriser.org"
+documentation = "https://docs.rs/elpriser"
+readme = "README.md"
+keywords = ["electricity", "spot-price", "nordpool", "energy", "api-client"]
+categories = ["api-bindings", "web-programming::http-client"]
+include = [
+    "/src/**",
+    "/examples/**",
+    "/README.md",
+    "/CHANGELOG.md",
+    "/LICENSE",
+    "/Cargo.toml",
+]
+
+[features]
+default = []
+# Adds `AsyncClient`, built on reqwest (rustls) and tokio.
+async = ["dep:reqwest", "dep:tokio"]
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["std", "clock"] }
+chrono-tz = "0.10"
+serde_json = "1"
+thiserror = "2"
+ureq = { version = "3", default-features = false, features = ["rustls"] }
+reqwest = { version = "0.13", default-features = false, features = ["rustls"], optional = true }
+tokio = { version = "1", default-features = false, features = ["time"], optional = true }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["rt", "macros", "time"] }
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+[lints.rust]
+unsafe_code = "forbid"

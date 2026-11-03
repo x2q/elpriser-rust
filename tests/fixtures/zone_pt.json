@@ -1,0 +1,1376 @@
+{
+ "zone": "pt",
+ "generated": "2026-11-02",
+ "trainedThrough": "2026-11-01",
+ "unit": "EUR/MWh",
+ "days": [
+  {
+   "date": "2026-11-01",
+   "type": "actual",
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 251.59
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 246.43
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 241.03
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 237.93
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 240.32
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 242.72
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 247.78
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 204.04
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 70.78
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 0.13
+    },
+    {
+     "hour": 10,
+     "eur_mwh": -0.02
+    },
+    {
+     "hour": 11,
+     "eur_mwh": -0.09
+    },
+    {
+     "hour": 12,
+     "eur_mwh": -0.07
+    },
+    {
+     "hour": 13,
+     "eur_mwh": -0.2
+    },
+    {
+     "hour": 14,
+     "eur_mwh": -0.27
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 15.38
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 157.15
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 242.94
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 255.04
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 261.93
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 260.92
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 251.13
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 234.77
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 243
+    }
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "type": "actual",
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 237.19
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 230.29
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 222.38
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 223.74
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 234.54
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 261.82
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 274.44
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 226.18
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 88.38
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 1.22
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 0.92
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 1.05
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 1.07
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 1.07
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 1.24
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 105.54
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 250.09
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 304.66
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 300.87
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 294.1
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 271.55
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 244.88
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 229.28
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 208.9
+    }
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "type": "actual",
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 202.53
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 196.16
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 189.97
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 190
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 192.11
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 224.47
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 269.75
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 243.55
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 146.25
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 25.7
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 3.2
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 5.17
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 12.5
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 40.16
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 98.32
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 191.12
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 278.74
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 309.16
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 303.27
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 308.67
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 302.4
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 280.88
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 252.7
+    },
+    {
+     "hour": 23,
+     "eur_mwh": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "type": "forecast",
+   "horizon": 2,
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 222.65,
+     "min_eur_mwh": 196.87,
+     "max_eur_mwh": 270.73
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 218.52,
+     "min_eur_mwh": 195.97,
+     "max_eur_mwh": 267.78
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 216.57,
+     "min_eur_mwh": 196.11,
+     "max_eur_mwh": 263.75
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 215.27,
+     "min_eur_mwh": 191.37,
+     "max_eur_mwh": 272.01
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 220.05,
+     "min_eur_mwh": 199.66,
+     "max_eur_mwh": 270.44
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 234.63,
+     "min_eur_mwh": 213.5,
+     "max_eur_mwh": 288.46
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 274.14,
+     "min_eur_mwh": 249.77,
+     "max_eur_mwh": 354.75
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 269.57,
+     "min_eur_mwh": 247.32,
+     "max_eur_mwh": 351.73
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 209.14,
+     "min_eur_mwh": 209.14,
+     "max_eur_mwh": 305.49
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 131.73,
+     "min_eur_mwh": 107.22,
+     "max_eur_mwh": 247.14
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 86.94,
+     "min_eur_mwh": 53.94,
+     "max_eur_mwh": 216.2
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 76.32,
+     "min_eur_mwh": 40.03,
+     "max_eur_mwh": 197.99
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 70.88,
+     "min_eur_mwh": 40.69,
+     "max_eur_mwh": 198.04
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 77.23,
+     "min_eur_mwh": 43.52,
+     "max_eur_mwh": 202.96
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 98.21,
+     "min_eur_mwh": 55.78,
+     "max_eur_mwh": 207.6
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 157.9,
+     "min_eur_mwh": 73.23,
+     "max_eur_mwh": 246.96
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 220.92,
+     "min_eur_mwh": 165.78,
+     "max_eur_mwh": 322.68
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 286.75,
+     "min_eur_mwh": 258.22,
+     "max_eur_mwh": 370.2
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 287.17,
+     "min_eur_mwh": 238.92,
+     "max_eur_mwh": 355.63
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 286.88,
+     "min_eur_mwh": 244.13,
+     "max_eur_mwh": 339.99
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 280.86,
+     "min_eur_mwh": 255.8,
+     "max_eur_mwh": 350.36
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 268,
+     "min_eur_mwh": 248.57,
+     "max_eur_mwh": 323.67
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 255.55,
+     "min_eur_mwh": 240.21,
+     "max_eur_mwh": 303.42
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 228.8,
+     "min_eur_mwh": 203.91,
+     "max_eur_mwh": 295.65
+    }
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "type": "forecast",
+   "horizon": 3,
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 230.9,
+     "min_eur_mwh": 209.89,
+     "max_eur_mwh": 289.63
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 226.46,
+     "min_eur_mwh": 203.91,
+     "max_eur_mwh": 277.62
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 222.77,
+     "min_eur_mwh": 203.2,
+     "max_eur_mwh": 277.16
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 221.82,
+     "min_eur_mwh": 203.96,
+     "max_eur_mwh": 279.51
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 223.93,
+     "min_eur_mwh": 204.89,
+     "max_eur_mwh": 279.56
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 239.22,
+     "min_eur_mwh": 216.4,
+     "max_eur_mwh": 301.3
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 267.01,
+     "min_eur_mwh": 241.95,
+     "max_eur_mwh": 361.13
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 268.91,
+     "min_eur_mwh": 248.16,
+     "max_eur_mwh": 381.84
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 226.01,
+     "min_eur_mwh": 219.1,
+     "max_eur_mwh": 342.44
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 151.46,
+     "min_eur_mwh": 109.61,
+     "max_eur_mwh": 281.83
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 108.04,
+     "min_eur_mwh": 68.03,
+     "max_eur_mwh": 237.32
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 91.8,
+     "min_eur_mwh": 53.85,
+     "max_eur_mwh": 210.72
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 87.09,
+     "min_eur_mwh": 44.7,
+     "max_eur_mwh": 210.35
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 93.73,
+     "min_eur_mwh": 55.1,
+     "max_eur_mwh": 214.85
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 111.29,
+     "min_eur_mwh": 65.34,
+     "max_eur_mwh": 227.69
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 163.95,
+     "min_eur_mwh": 104.76,
+     "max_eur_mwh": 280.54
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 224.03,
+     "min_eur_mwh": 161.62,
+     "max_eur_mwh": 361.32
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 278.57,
+     "min_eur_mwh": 251.75,
+     "max_eur_mwh": 423.37
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 295.8,
+     "min_eur_mwh": 257.93,
+     "max_eur_mwh": 429.03
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 300.65,
+     "min_eur_mwh": 265.05,
+     "max_eur_mwh": 402.25
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 293.69,
+     "min_eur_mwh": 264.14,
+     "max_eur_mwh": 398.96
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 277.13,
+     "min_eur_mwh": 257.43,
+     "max_eur_mwh": 370.56
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 266.7,
+     "min_eur_mwh": 246.17,
+     "max_eur_mwh": 333.26
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 230.46,
+     "min_eur_mwh": 197.08,
+     "max_eur_mwh": 309.85
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "type": "forecast",
+   "horizon": 4,
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 223.1,
+     "min_eur_mwh": 192.92,
+     "max_eur_mwh": 290.93
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 210.36,
+     "min_eur_mwh": 176.26,
+     "max_eur_mwh": 273.66
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 208.4,
+     "min_eur_mwh": 174.89,
+     "max_eur_mwh": 272.39
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 207.44,
+     "min_eur_mwh": 174.04,
+     "max_eur_mwh": 271.57
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 212.73,
+     "min_eur_mwh": 180.67,
+     "max_eur_mwh": 277.82
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 235.57,
+     "min_eur_mwh": 207.95,
+     "max_eur_mwh": 296.93
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 264.56,
+     "min_eur_mwh": 231.25,
+     "max_eur_mwh": 352.09
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 267.48,
+     "min_eur_mwh": 237.11,
+     "max_eur_mwh": 361.87
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 230.57,
+     "min_eur_mwh": 214.5,
+     "max_eur_mwh": 334.84
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 163.93,
+     "min_eur_mwh": 136.62,
+     "max_eur_mwh": 277.12
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 122.46,
+     "min_eur_mwh": 78.91,
+     "max_eur_mwh": 251.44
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 117.76,
+     "min_eur_mwh": 72.08,
+     "max_eur_mwh": 244.01
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 116.92,
+     "min_eur_mwh": 75.5,
+     "max_eur_mwh": 239.75
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 126.8,
+     "min_eur_mwh": 87.04,
+     "max_eur_mwh": 247.02
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 147.39,
+     "min_eur_mwh": 106.36,
+     "max_eur_mwh": 272.58
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 184.65,
+     "min_eur_mwh": 139.2,
+     "max_eur_mwh": 294.27
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 224.12,
+     "min_eur_mwh": 190.43,
+     "max_eur_mwh": 352.29
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 276.08,
+     "min_eur_mwh": 246.06,
+     "max_eur_mwh": 377.35
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 291.96,
+     "min_eur_mwh": 260.71,
+     "max_eur_mwh": 382
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 292.31,
+     "min_eur_mwh": 260.71,
+     "max_eur_mwh": 375.59
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 286.04,
+     "min_eur_mwh": 256.65,
+     "max_eur_mwh": 362.17
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 272.11,
+     "min_eur_mwh": 249.31,
+     "max_eur_mwh": 339.83
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 257.71,
+     "min_eur_mwh": 239.21,
+     "max_eur_mwh": 316.21
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 240.96,
+     "min_eur_mwh": 203.19,
+     "max_eur_mwh": 317.8
+    }
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "type": "forecast",
+   "horizon": 5,
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 242.59,
+     "min_eur_mwh": 213.68,
+     "max_eur_mwh": 300.65
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 238.47,
+     "min_eur_mwh": 210.29,
+     "max_eur_mwh": 321.17
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 234.44,
+     "min_eur_mwh": 201.9,
+     "max_eur_mwh": 311.1
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 232.49,
+     "min_eur_mwh": 200.16,
+     "max_eur_mwh": 312.29
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 231.36,
+     "min_eur_mwh": 195.62,
+     "max_eur_mwh": 309.72
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 235.85,
+     "min_eur_mwh": 202.15,
+     "max_eur_mwh": 320.81
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 246.91,
+     "min_eur_mwh": 218.13,
+     "max_eur_mwh": 352.13
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 250.06,
+     "min_eur_mwh": 215.44,
+     "max_eur_mwh": 331.23
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 202.85,
+     "min_eur_mwh": 170.28,
+     "max_eur_mwh": 298.79
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 131.66,
+     "min_eur_mwh": 88.5,
+     "max_eur_mwh": 257.08
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 81.23,
+     "min_eur_mwh": 67.47,
+     "max_eur_mwh": 225.25
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 77.91,
+     "min_eur_mwh": 59.73,
+     "max_eur_mwh": 224.8
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 80.31,
+     "min_eur_mwh": 57.73,
+     "max_eur_mwh": 226.2
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 85.86,
+     "min_eur_mwh": 62.09,
+     "max_eur_mwh": 232.65
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 99.22,
+     "min_eur_mwh": 66.6,
+     "max_eur_mwh": 242.37
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 137.97,
+     "min_eur_mwh": 74.4,
+     "max_eur_mwh": 265.3
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 186.84,
+     "min_eur_mwh": 117.73,
+     "max_eur_mwh": 276.16
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 248.13,
+     "min_eur_mwh": 202.4,
+     "max_eur_mwh": 323.18
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 265.1,
+     "min_eur_mwh": 228.96,
+     "max_eur_mwh": 349.24
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 256.46,
+     "min_eur_mwh": 201.91,
+     "max_eur_mwh": 349.12
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 257.79,
+     "min_eur_mwh": 215.29,
+     "max_eur_mwh": 351.85
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 247.25,
+     "min_eur_mwh": 215.2,
+     "max_eur_mwh": 334.37
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 239.82,
+     "min_eur_mwh": 209.3,
+     "max_eur_mwh": 327.26
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 222.53,
+     "min_eur_mwh": 178.37,
+     "max_eur_mwh": 322.93
+    }
+   ]
+  },
+  {
+   "date": "2026-11-08",
+   "type": "forecast",
+   "horizon": 6,
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 220.53,
+     "min_eur_mwh": 169.41,
+     "max_eur_mwh": 294.72
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 207.4,
+     "min_eur_mwh": 154.42,
+     "max_eur_mwh": 293.31
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 194.42,
+     "min_eur_mwh": 143.92,
+     "max_eur_mwh": 277.94
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 189.26,
+     "min_eur_mwh": 132.29,
+     "max_eur_mwh": 274.62
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 188.53,
+     "min_eur_mwh": 126.41,
+     "max_eur_mwh": 273.62
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 198.51,
+     "min_eur_mwh": 140.92,
+     "max_eur_mwh": 287.31
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 201.89,
+     "min_eur_mwh": 134.91,
+     "max_eur_mwh": 297.64
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 168.37,
+     "min_eur_mwh": 86.69,
+     "max_eur_mwh": 279.7
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 117.45,
+     "min_eur_mwh": 43.58,
+     "max_eur_mwh": 240.65
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 74.44,
+     "min_eur_mwh": 24.11,
+     "max_eur_mwh": 234.35
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 64.84,
+     "min_eur_mwh": 15.77,
+     "max_eur_mwh": 225.37
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 63.89,
+     "min_eur_mwh": 15.52,
+     "max_eur_mwh": 219.04
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 66.11,
+     "min_eur_mwh": 15.57,
+     "max_eur_mwh": 223.8
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 73.37,
+     "min_eur_mwh": 22,
+     "max_eur_mwh": 231.06
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 82.86,
+     "min_eur_mwh": 24.06,
+     "max_eur_mwh": 229.95
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 98.52,
+     "min_eur_mwh": 50.45,
+     "max_eur_mwh": 247.45
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 161.75,
+     "min_eur_mwh": 80.66,
+     "max_eur_mwh": 280.37
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 223.57,
+     "min_eur_mwh": 147.2,
+     "max_eur_mwh": 308.59
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 242.93,
+     "min_eur_mwh": 189.22,
+     "max_eur_mwh": 316.09
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 249.17,
+     "min_eur_mwh": 205.84,
+     "max_eur_mwh": 328.42
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 253.12,
+     "min_eur_mwh": 214.09,
+     "max_eur_mwh": 327.74
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 250.11,
+     "min_eur_mwh": 221.34,
+     "max_eur_mwh": 328.18
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 243.87,
+     "min_eur_mwh": 213.47,
+     "max_eur_mwh": 306.52
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 234.79,
+     "min_eur_mwh": 192.59,
+     "max_eur_mwh": 311.41
+    }
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "type": "forecast",
+   "horizon": 7,
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 213.08,
+     "min_eur_mwh": 208.88,
+     "max_eur_mwh": 299.03
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 209.31,
+     "min_eur_mwh": 201.97,
+     "max_eur_mwh": 295.32
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 206.34,
+     "min_eur_mwh": 199.85,
+     "max_eur_mwh": 286.12
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 206.84,
+     "min_eur_mwh": 196.97,
+     "max_eur_mwh": 287.08
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 207.99,
+     "min_eur_mwh": 196.82,
+     "max_eur_mwh": 293.57
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 222.5,
+     "min_eur_mwh": 198.08,
+     "max_eur_mwh": 305.03
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 247.26,
+     "min_eur_mwh": 211.57,
+     "max_eur_mwh": 343.35
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 239.3,
+     "min_eur_mwh": 214.02,
+     "max_eur_mwh": 343.98
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 188.34,
+     "min_eur_mwh": 165.18,
+     "max_eur_mwh": 312.39
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 134.95,
+     "min_eur_mwh": 81.68,
+     "max_eur_mwh": 277.5
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 111.7,
+     "min_eur_mwh": 66.96,
+     "max_eur_mwh": 269.65
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 100.84,
+     "min_eur_mwh": 62.99,
+     "max_eur_mwh": 270.01
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 94.26,
+     "min_eur_mwh": 65.41,
+     "max_eur_mwh": 270.25
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 94.02,
+     "min_eur_mwh": 67.05,
+     "max_eur_mwh": 281.97
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 103.71,
+     "min_eur_mwh": 59.92,
+     "max_eur_mwh": 280.37
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 157.11,
+     "min_eur_mwh": 129.21,
+     "max_eur_mwh": 299.92
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 209.89,
+     "min_eur_mwh": 190.83,
+     "max_eur_mwh": 349.82
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 224.48,
+     "min_eur_mwh": 206.61,
+     "max_eur_mwh": 362.81
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 230.49,
+     "min_eur_mwh": 209.74,
+     "max_eur_mwh": 344.62
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 239.87,
+     "min_eur_mwh": 210.37,
+     "max_eur_mwh": 344.83
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 237.78,
+     "min_eur_mwh": 210.28,
+     "max_eur_mwh": 344.43
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 223.12,
+     "min_eur_mwh": 206.67,
+     "max_eur_mwh": 330.94
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 217.83,
+     "min_eur_mwh": 204.87,
+     "max_eur_mwh": 311.27
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 203.41,
+     "min_eur_mwh": 165.04,
+     "max_eur_mwh": 307.54
+    }
+   ]
+  }
+ ],
+ "model": "eu-ens-v2",
+ "forecastGenerated": "2026-11-02",
+ "accuracy": {
+  "version": 2,
+  "period": "2025-04-01..2026-11-02",
+  "baseline": "level+shape",
+  "recent": "2026-09-01",
+  "fuel": true,
+  "showEur": false,
+  "byHorizon": {
+   "2": {
+    "mae": 18.6,
+    "baseMae": 24.6,
+    "gain": 0.243,
+    "gainHold": 0.257,
+    "gainRecent": 0.238,
+    "bias": -8.1,
+    "baseBias": -6.6,
+    "regret": 2.47,
+    "baseRegret": 3.09,
+    "rankGain": 0.203,
+    "rankOk": true,
+    "coverage": 0.8,
+    "coverageRecent": 0.72,
+    "low": true,
+    "days": 572
+   },
+   "3": {
+    "mae": 21.9,
+    "baseMae": 25.9,
+    "gain": 0.153,
+    "gainHold": 0.161,
+    "gainRecent": 0.156,
+    "bias": -12.2,
+    "baseBias": -8.1,
+    "regret": 2.77,
+    "baseRegret": 3.1,
+    "rankGain": 0.106,
+    "rankOk": false,
+    "coverage": 0.79,
+    "coverageRecent": 0.7,
+    "low": true,
+    "days": 571
+   },
+   "4": {
+    "mae": 23.4,
+    "baseMae": 26.7,
+    "gain": 0.124,
+    "gainHold": 0.122,
+    "gainRecent": 0.122,
+    "bias": -15,
+    "baseBias": -9.5,
+    "regret": 2.65,
+    "baseRegret": 3.1,
+    "rankGain": 0.146,
+    "rankOk": true,
+    "coverage": 0.79,
+    "coverageRecent": 0.69,
+    "low": true,
+    "days": 571
+   },
+   "5": {
+    "mae": 23.8,
+    "baseMae": 27.2,
+    "gain": 0.126,
+    "gainHold": 0.131,
+    "gainRecent": 0.138,
+    "bias": -13.7,
+    "baseBias": -10.7,
+    "regret": 2.76,
+    "baseRegret": 3.1,
+    "rankGain": 0.111,
+    "rankOk": true,
+    "coverage": 0.8,
+    "coverageRecent": 0.72,
+    "low": true,
+    "days": 571
+   },
+   "6": {
+    "mae": 24.5,
+    "baseMae": 27.6,
+    "gain": 0.112,
+    "gainHold": 0.111,
+    "gainRecent": 0.123,
+    "bias": -15.2,
+    "baseBias": -11.6,
+    "regret": 3.2,
+    "baseRegret": 3.1,
+    "rankGain": -0.032,
+    "rankOk": false,
+    "coverage": 0.79,
+    "coverageRecent": 0.7,
+    "low": true,
+    "days": 571
+   },
+   "7": {
+    "mae": 25.6,
+    "baseMae": 27.9,
+    "gain": 0.081,
+    "gainHold": 0.078,
+    "gainRecent": 0.07,
+    "bias": -18.4,
+    "baseBias": -12.3,
+    "regret": 3.08,
+    "baseRegret": 3.09,
+    "rankGain": 0.004,
+    "rankOk": false,
+    "coverage": 0.79,
+    "coverageRecent": 0.67,
+    "low": true,
+    "days": 573
+   }
+  }
+ },
+ "estimate": {
+  "date": "2026-11-03",
+  "type": "forecast",
+  "scope": "partial-day",
+  "model": "hour23-v1",
+  "generatedAt": "2026-11-03T06:12:01.000Z",
+  "prices": [
+   {
+    "hour": 23,
+    "eur_mwh": 252.7,
+    "min_eur_mwh": 232.89,
+    "max_eur_mwh": 264.37
+   }
+  ],
+  "method": "last-settled-hour",
+  "accuracy": {
+   "mae": 8.5267,
+   "baseMae": 8.5267,
+   "bestNaiveMae": 8.5267,
+   "gain": 0,
+   "gainHold": 0,
+   "gainRecent": 0,
+   "maeHold": 8.7408,
+   "maeSince": 10.6012,
+   "coverage": 0.8338,
+   "coverageRecent": 0.7143,
+   "days": 580,
+   "unit": "EUR/MWh",
+   "baseline": "persistence of hour 22",
+   "period": "2025-04-01..",
+   "recent": "2026-09-01",
+   "hours": 1
+  }
+ },
+ "zoneInfo": {
+  "name": "PT Portugal",
+  "country": "PT",
+  "currency": "EUR",
+  "rate": 1,
+  "rateDate": "2026-11-02",
+  "rateSource": "ECB"
+ }
+}

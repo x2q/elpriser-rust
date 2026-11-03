@@ -1,0 +1,322 @@
+{
+ "zone": "xk",
+ "generated": "2026-11-02",
+ "trainedThrough": null,
+ "unit": "EUR/MWh",
+ "days": [
+  {
+   "date": "2026-11-01",
+   "type": "actual",
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 286
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 286
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 285
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 240
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 211.3
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 275
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 279
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 286
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 286
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 286
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 234
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 234
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 234
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 234
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 234
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 285
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 286
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 310
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 291.3
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 284.3
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 274.3
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 253.3
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 231.3
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 195
+    }
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "type": "actual",
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 260.49
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 180
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 90.78
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 89.57
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 89.5
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 90.48
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 145
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 293.3
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 315
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 307.9
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 299.9
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 297.9
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 299.9
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 299.9
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 335.9
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 357.7
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 365
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 354
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 347.9
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 325
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 308
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 278
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 272.9
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 235
+    }
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "type": "actual",
+   "prices": [
+    {
+     "hour": 0,
+     "eur_mwh": 260
+    },
+    {
+     "hour": 1,
+     "eur_mwh": 247
+    },
+    {
+     "hour": 2,
+     "eur_mwh": 220.5
+    },
+    {
+     "hour": 3,
+     "eur_mwh": 220
+    },
+    {
+     "hour": 4,
+     "eur_mwh": 220
+    },
+    {
+     "hour": 5,
+     "eur_mwh": 252
+    },
+    {
+     "hour": 6,
+     "eur_mwh": 285
+    },
+    {
+     "hour": 7,
+     "eur_mwh": 333.61
+    },
+    {
+     "hour": 8,
+     "eur_mwh": 345.37
+    },
+    {
+     "hour": 9,
+     "eur_mwh": 335.37
+    },
+    {
+     "hour": 10,
+     "eur_mwh": 328
+    },
+    {
+     "hour": 11,
+     "eur_mwh": 330
+    },
+    {
+     "hour": 12,
+     "eur_mwh": 310
+    },
+    {
+     "hour": 13,
+     "eur_mwh": 335
+    },
+    {
+     "hour": 14,
+     "eur_mwh": 350.46
+    },
+    {
+     "hour": 15,
+     "eur_mwh": 368
+    },
+    {
+     "hour": 16,
+     "eur_mwh": 369.5
+    },
+    {
+     "hour": 17,
+     "eur_mwh": 365
+    },
+    {
+     "hour": 18,
+     "eur_mwh": 365
+    },
+    {
+     "hour": 19,
+     "eur_mwh": 365
+    },
+    {
+     "hour": 20,
+     "eur_mwh": 354.9
+    },
+    {
+     "hour": 21,
+     "eur_mwh": 334.9
+    },
+    {
+     "hour": 22,
+     "eur_mwh": 324
+    },
+    {
+     "hour": 23,
+     "eur_mwh": 309
+    }
+   ]
+  }
+ ],
+ "zoneInfo": {
+  "name": "XK Kosovo",
+  "country": "XK",
+  "currency": "EUR",
+  "rate": 1,
+  "rateDate": "2026-11-02",
+  "rateSource": "ECB"
+ }
+}

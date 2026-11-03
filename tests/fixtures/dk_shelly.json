@@ -1,0 +1,161 @@
+{
+ "data": {
+  "viewer": {
+   "homes": [
+    {
+     "currentSubscription": {
+      "priceInfo": {
+       "today": [
+        {
+         "total": 2.209,
+         "startsAt": "2026-11-03T00:00:00+01:00",
+         "currency": "DKK",
+         "level": "VERY_CHEAP"
+        },
+        {
+         "total": 2.2237,
+         "startsAt": "2026-11-03T01:00:00+01:00",
+         "currency": "DKK",
+         "level": "VERY_CHEAP"
+        },
+        {
+         "total": 2.22,
+         "startsAt": "2026-11-03T02:00:00+01:00",
+         "currency": "DKK",
+         "level": "VERY_CHEAP"
+        },
+        {
+         "total": 2.2411,
+         "startsAt": "2026-11-03T03:00:00+01:00",
+         "currency": "DKK",
+         "level": "VERY_CHEAP"
+        },
+        {
+         "total": 2.257,
+         "startsAt": "2026-11-03T04:00:00+01:00",
+         "currency": "DKK",
+         "level": "CHEAP"
+        },
+        {
+         "total": 2.2548,
+         "startsAt": "2026-11-03T05:00:00+01:00",
+         "currency": "DKK",
+         "level": "VERY_CHEAP"
+        },
+        {
+         "total": 2.5482,
+         "startsAt": "2026-11-03T06:00:00+01:00",
+         "currency": "DKK",
+         "level": "NORMAL"
+        },
+        {
+         "total": 2.9481,
+         "startsAt": "2026-11-03T07:00:00+01:00",
+         "currency": "DKK",
+         "level": "EXPENSIVE"
+        },
+        {
+         "total": 2.9896,
+         "startsAt": "2026-11-03T08:00:00+01:00",
+         "currency": "DKK",
+         "level": "VERY_EXPENSIVE"
+        },
+        {
+         "total": 2.706,
+         "startsAt": "2026-11-03T09:00:00+01:00",
+         "currency": "DKK",
+         "level": "EXPENSIVE"
+        },
+        {
+         "total": 2.3618,
+         "startsAt": "2026-11-03T10:00:00+01:00",
+         "currency": "DKK",
+         "level": "NORMAL"
+        },
+        {
+         "total": 2.3166,
+         "startsAt": "2026-11-03T11:00:00+01:00",
+         "currency": "DKK",
+         "level": "CHEAP"
+        },
+        {
+         "total": 2.2758,
+         "startsAt": "2026-11-03T12:00:00+01:00",
+         "currency": "DKK",
+         "level": "CHEAP"
+        },
+        {
+         "total": 2.3251,
+         "startsAt": "2026-11-03T13:00:00+01:00",
+         "currency": "DKK",
+         "level": "NORMAL"
+        },
+        {
+         "total": 2.3225,
+         "startsAt": "2026-11-03T14:00:00+01:00",
+         "currency": "DKK",
+         "level": "NORMAL"
+        },
+        {
+         "total": 2.5961,
+         "startsAt": "2026-11-03T15:00:00+01:00",
+         "currency": "DKK",
+         "level": "EXPENSIVE"
+        },
+        {
+         "total": 2.931,
+         "startsAt": "2026-11-03T16:00:00+01:00",
+         "currency": "DKK",
+         "level": "EXPENSIVE"
+        },
+        {
+         "total": 3.0903,
+         "startsAt": "2026-11-03T17:00:00+01:00",
+         "currency": "DKK",
+         "level": "VERY_EXPENSIVE"
+        },
+        {
+         "total": 3.0305,
+         "startsAt": "2026-11-03T18:00:00+01:00",
+         "currency": "DKK",
+         "level": "VERY_EXPENSIVE"
+        },
+        {
+         "total": 2.975,
+         "startsAt": "2026-11-03T19:00:00+01:00",
+         "currency": "DKK",
+         "level": "VERY_EXPENSIVE"
+        },
+        {
+         "total": 2.7449,
+         "startsAt": "2026-11-03T20:00:00+01:00",
+         "currency": "DKK",
+         "level": "EXPENSIVE"
+        },
+        {
+         "total": 2.3894,
+         "startsAt": "2026-11-03T21:00:00+01:00",
+         "currency": "DKK",
+         "level": "NORMAL"
+        },
+        {
+         "total": 2.2991,
+         "startsAt": "2026-11-03T22:00:00+01:00",
+         "currency": "DKK",
+         "level": "CHEAP"
+        },
+        {
+         "total": 2.283,
+         "startsAt": "2026-11-03T23:00:00+01:00",
+         "currency": "DKK",
+         "level": "CHEAP"
+        }
+       ],
+       "tomorrow": []
+      }
+     }
+    }
+   ]
+  }
+ }
+}

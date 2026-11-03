@@ -1,0 +1,107 @@
+{
+ "area": "DK1",
+ "mode": "inkl_alt",
+ "date": "2026-11-03",
+ "unit": "DKK/kWh",
+ "charges": "historical",
+ "prices": [
+  {
+   "hour": 0,
+   "price": 2.209
+  },
+  {
+   "hour": 1,
+   "price": 2.2237
+  },
+  {
+   "hour": 2,
+   "price": 2.22
+  },
+  {
+   "hour": 3,
+   "price": 2.2411
+  },
+  {
+   "hour": 4,
+   "price": 2.257
+  },
+  {
+   "hour": 5,
+   "price": 2.2548
+  },
+  {
+   "hour": 6,
+   "price": 2.5482
+  },
+  {
+   "hour": 7,
+   "price": 2.9481
+  },
+  {
+   "hour": 8,
+   "price": 2.9896
+  },
+  {
+   "hour": 9,
+   "price": 2.706
+  },
+  {
+   "hour": 10,
+   "price": 2.3618
+  },
+  {
+   "hour": 11,
+   "price": 2.3166
+  },
+  {
+   "hour": 12,
+   "price": 2.2758
+  },
+  {
+   "hour": 13,
+   "price": 2.3251
+  },
+  {
+   "hour": 14,
+   "price": 2.3225
+  },
+  {
+   "hour": 15,
+   "price": 2.5961
+  },
+  {
+   "hour": 16,
+   "price": 2.931
+  },
+  {
+   "hour": 17,
+   "price": 3.0903
+  },
+  {
+   "hour": 18,
+   "price": 3.0305
+  },
+  {
+   "hour": 19,
+   "price": 2.975
+  },
+  {
+   "hour": 20,
+   "price": 2.7449
+  },
+  {
+   "hour": 21,
+   "price": 2.3894
+  },
+  {
+   "hour": 22,
+   "price": 2.2991
+  },
+  {
+   "hour": 23,
+   "price": 2.283
+  }
+ ],
+ "current_hour": 8,
+ "current_price": 2.9896
+}

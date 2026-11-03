@@ -1,0 +1,112 @@
+{
+ "recorded_at": "2026-11-03T07:48:58+00:00",
+ "files": {
+  "zone_de": {
+   "path": "/api/nordic",
+   "params": {
+    "zone": "de"
+   }
+  },
+  "zone_pl": {
+   "path": "/api/nordic",
+   "params": {
+    "zone": "pl"
+   }
+  },
+  "zone_se3": {
+   "path": "/api/nordic",
+   "params": {
+    "zone": "se3"
+   }
+  },
+  "zone_dk1": {
+   "path": "/api/nordic",
+   "params": {
+    "zone": "dk1"
+   }
+  },
+  "zone_gb": {
+   "path": "/api/nordic",
+   "params": {
+    "zone": "gb"
+   }
+  },
+  "zone_pt": {
+   "path": "/api/nordic",
+   "params": {
+    "zone": "pt"
+   }
+  },
+  "zone_ie": {
+   "path": "/api/nordic",
+   "params": {
+    "zone": "ie"
+   }
+  },
+  "zone_xk": {
+   "path": "/api/nordic",
+   "params": {
+    "zone": "xk"
+   }
+  },
+  "dk_forecast": {
+   "path": "/api/forecast",
+   "params": {
+    "area": "DK1",
+    "mode": "inkl_alt"
+   }
+  },
+  "dk_forecast_net": {
+   "path": "/api/forecast",
+   "params": {
+    "area": "DK2",
+    "mode": "net_inkl_alt",
+    "gln": "5790000704842"
+   }
+  },
+  "dk_now": {
+   "path": "/api/now",
+   "params": {
+    "area": "DK1",
+    "mode": "inkl_alt"
+   }
+  },
+  "dk_prices": {
+   "path": "/api/prices",
+   "params": {
+    "area": "DK1",
+    "mode": "inkl_alt"
+   }
+  },
+  "dk_schedule": {
+   "path": "/api/schedule",
+   "params": {
+    "area": "DK1",
+    "mode": "inkl_alt",
+    "strategy": "cheapest_n",
+    "hours": 6
+   }
+  },
+  "dk_shelly": {
+   "path": "/api/shelly/tariff",
+   "params": {
+    "area": "DK1",
+    "mode": "inkl_alt"
+   }
+  },
+  "supplier_ok": {
+   "path": "/api/supplierlookup",
+   "params": {
+    "lat": 55.6761,
+    "lng": 12.5683
+   }
+  },
+  "supplier_none": {
+   "path": "/api/supplierlookup",
+   "params": {
+    "lat": 0.0,
+    "lng": 0.0
+   }
+  }
+ }
+}

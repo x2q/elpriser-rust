@@ -1,0 +1,8 @@
+{
+ "on": false,
+ "price": 2.9896,
+ "hour": 8,
+ "area": "DK1",
+ "mode": "inkl_alt",
+ "strategy": "cheapest_n"
+}
